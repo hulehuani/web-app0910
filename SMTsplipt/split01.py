@@ -46,9 +46,9 @@ def send_email(new_reportfile):
     # SSL协议端口号要使用465
     smtp = smtplib.SMTP_SSL(smtpserver, 465)
 
-    # HELO 像服务器标识用户身份
+    # HELO 像服务器标识用户身  份
     smtp.helo(smtpserver)
-    # 服务器返回结果确认
+    # 服务器返回结果确 认
     smtp.ehlo(smtpserver)
     # 登陆用户
     smtp.login(user, password)
