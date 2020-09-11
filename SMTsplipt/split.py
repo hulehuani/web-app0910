@@ -26,7 +26,7 @@ def send_email(new_reportfile):
     sender = '523258779@qq.com'
     receiver = '577512689@qq.com'
     # 发送给多  人
-    # receiver = ['123@qq.com',  '23432@qq .com','719584032@qq.com' ]
+    # receiver = ['123@qq.com',  '23432@qq .com','719584032@qq.com'  ]
 
     # 定义标题和内容
     biaoti = "测试报告0911"
