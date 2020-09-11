@@ -20,7 +20,8 @@ def send_email(new_reportfile):
 
     # 用户名密码
     user = '523258779@qq.com'
-    password = 'mxweymtlkptubggf'
+    #  输入自己的邮箱服务密码
+    password = 'xxxxxxxxx'
     # 发送和接收邮箱用户
     sender = '523258779@qq.com'
     receiver = '577512689@qq.com'
@@ -28,7 +29,7 @@ def send_email(new_reportfile):
     # receiver = ['123@qq.com',  '23432@qq.com','719584032@qq.com']
 
     # 定义标题和内容
-    biaoti = "my_fist自动化测试报告"
+    biaoti = "测试报告0911"
 
     # HTML邮件正文
     msg = MIMEText(mail_content, 'html', 'utf-8')

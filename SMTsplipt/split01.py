@@ -25,7 +25,8 @@ def send_email(new_reportfile):
 
     # 用户名密码
     user = '523258779@qq.com'
-    password = 'mxweymtlkptubggf'
+    # 输入自己的邮箱服务密码
+    password = 'xxxxxxxx'
     # 发送和接收邮箱用户
     sender = '523258779@qq.com'
     receiver = '577512689@qq.com'
@@ -53,7 +54,7 @@ def send_email(new_reportfile):
     # 登陆用户
     smtp.login(user, password)
     print("开始发送邮件.............")
-    smtp.sendmail(sender, receiver, msg.as_string())
+    smtp.sendmail(sender, receiver, msg.as_string ())
     smtp.quit()
     print("邮件发送完成.....................")
 if __name__ == '__main__':
